@@ -1,0 +1,100 @@
+function for removing common characters
+with their respective occurrences
+
+if common character is found
+then remove that character
+and return list of concatenated
+list with True Flag
+remove character from the list
+
+concatenation of two list elements with *
+* is act as border mark here
+
+return the concatenated list with True flag
+
+no common characters is found
+return the concatenated list with False flag
+
+take first name
+converted all letters into lower case
+replace any space with empty string
+
+make a list of letters or characters
+take 2nd name
+
+taking a flag as True initially
+
+keep calling remove_match_char function
+until common characters is found or
+keep looping until proceed flag is True
+
+
+function calling and store return value
+take out concatenated list from return list
+
+take out flag value from return list
+find the index of "*" / border mark
+list slicing perform
+all characters before * store in p1_list
+all characters after * store in p2_list
+count total remaining characters
+
+list of FLAMES acronym
+keep looping until only one item
+is not remaining in the result list
+
+store that index value from
+where we have to perform slicing.
+
+this steps is done for performing
+anticlock-wise circular fashion counting.
+
+list slicing
+list concatenation
+print final result
+
+______________________________
+
+The code starts by taking the first name, player 1 name.
+
+It converts all of the letters into lower case and replaces any space with an empty string.
+
+Next, it makes a list of all of the letters in player 1’s name.
+
+The code then takes the second name, player 2 name.
+
+It converts all of the letters into lower case and replaces any space with an empty string.
+
+Next, it creates a list of characters from both players’ names.
+
+The code starts by setting the proceed flag to True .
+
+Then it calls the remove_match_char function on each list.
+
+The remove_match_char function looks for common characters between both lists and removes them.
+
+If no common characters are found, then proceed is set to False and the loop ends.
+
+However, if common characters are found, then ret_list[0] stores the index of “*” in it (the border mark),
+ ret_list[1] stores the flag value (True ), 
+
+and star_index stores the index of where that character was found in p1_list or p2_list (depending on which list was used).
+So after removing all of the common characters from each list, p1_list and p2_list
+
+The code firstly takes in two player names as input.
+
+Next, all of the letters in each name are converted to lower case.
+
+Finally, any spaces are replaced with an empty string.
+
+A list of these strings is then created.
+
+Next, the remove_match_char function is called once for each list.
+
+This function looks for a common character between the two lists and removes it.
+
+If no common characters are found, the return value is [list1, False] and the proceed flag is set to True .
+
+If a common character is found, the return value is [list3, True] and the proceed flag is set to False .
+
+Finally, the concatenated list is returned with either [list3, True].
